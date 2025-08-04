@@ -1,0 +1,270 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+  font-family: "Gabarito", sans-serif;
+  
+}
+
+.navbar{
+    border-bottom: solid black 1px;
+    /* margin: 10px; */
+    padding: 10px;
+    /* padding-bottom: 10px; */
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: center;
+}
+.navbar__title{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.navbar__title__name{
+    color: #A435F0;
+}
+.navbar__title__explore{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.navbar__title__explore:hover{
+    background-color: #EDE5F9;
+    color: #000000;
+}
+.navbar__searchbar{
+    padding: 15px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 45%;
+    display: flex;
+    gap: 10px;
+    
+}
+.navbar__searchbar input{
+font-size: 16px;
+}
+.navbar__searchbar__input{
+    border: none;
+    width: 100%;
+}
+.navbar__searchbar__input:focus{
+    outline: none;
+}
+.navbar__course{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.navbar__course p{
+padding: 10px;
+border-radius: 10px;
+}
+
+.navbar__course p:hover{
+    background-color: #EDE5F9;
+    /* color: #BF6DD2; */
+}
+.navbar__course i{
+padding: 10px;
+border-radius: 10px;
+}
+
+.navbar__course i:hover{
+     background-color: #EDE5F9;
+     color: #BF6DD2;
+}
+.cat{
+    display: flex;
+    justify-content: center;
+}
+.cat__container{
+    width: 85%;
+    padding: 12px;
+
+}
+.cat__container__list{
+    display: flex;
+    gap: 12px;
+    justify-content: space-around;
+}
+.cat__container__list p{
+    padding: 10px;
+    border-radius: 10px;
+}
+.cat__container__list p:hover{
+    background-color: #EDE5F9;
+}
+
+.banner{
+    padding-left: 100px;
+    background-color: #16161D;
+    color: white;
+    height: 182px;
+}
+
+.bannert{
+    display: flex;
+    justify-content: center;
+}
+
+/* .banner__title{
+    font-size: 32px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: "Spectral", serif;
+}
+.banner__list{
+   font-family: "Inter", sans-serif;
+   font-weight: 600;
+   display: flex;
+   gap: 15px;
+   padding-bottom: 12px;
+   
+}
+.banner__list p:hover{
+    border-bottom:5px solid white ;
+} */
+.default{
+    text-align: center;
+    /* border-bottom: solid black 1px; */
+}
+.default__start{
+    padding-top: 80px;
+    padding-bottom: 12px;
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+.default__searchcourse{
+     padding-bottom: 30px;
+}
+
+.recom{
+    padding-top: 12px;
+    margin-left: 100px;
+    height: 110px;
+}
+.recom__title p{
+  
+    font-weight: lighter;
+    padding-top: 6px;
+    color: #bbb9b9;
+}
+.recom__list{
+    display: flex;
+    width: 90%;
+    
+    border-bottom: solid black 1px;
+}
+.recom__list__item{
+    display: flex;
+    padding: 12px;
+    margin-top:12px;
+    gap: 20px;
+}
+.recom__list__item p:hover{
+    border-bottom: black solid 2px ;
+}
+/* .recom__list p:click{
+    border-bottom: black solid 2px ;
+} */
+.cards{
+    padding-left: 100px;
+    padding-top: 32px;
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.cards__one {
+    width:300px; 
+    padding-top: 8px;   
+
+}
+.cards__one img{
+    height: 175px;
+}
+.price{
+    color:#bbb9b9 ;
+}
+
+.card__one__rating{
+    font-size: 16px;
+}
+
+.card__one__prize{
+    display: flex;
+    gap: 8px;
+}
+
+.price{
+    text-decoration: line-through;
+}
+.cards__one__best{
+    padding-left: 8px;
+    display: flex;
+    gap: 8px;
+}
+.cards__one__best__pre{
+    background-color: #5022C3;
+    padding: 6px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+.cards__one__best__seller{
+    background-color: #C2E9EB;
+    padding: 6px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+.cards__one__best__pre{
+    color: white;
+}
+
+.popular{
+    padding-left: 100px;
+    padding-top: 24px;
+    margin-right: 100px;
+}
+.popular__list{
+    margin-top: 16px;
+    display: flex;  
+    flex-wrap: wrap;
+    gap: 12px;
+}
+.popular__list p{
+    padding: 12px;
+    border: solid black 1px ;
+    flex-grow: 1;
+    flex-basis: 25%;
+}
+.topic h1{
+    padding-left :100px;
+    padding-top: 16px;
+}
+.footer{
+    padding-left:100px;
+    margin-top:32px;
+    background-color: black;
+    color: white;
+}
+.footer__one{
+    
+    display: flex;
+    gap: 8px;
+}
+.footer__ones1 p{
+    padding: 12px;
+}
+.footer__two{
+    padding-top: 8px;
+    padding-left: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
